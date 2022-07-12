@@ -16,7 +16,7 @@ module.exports.execute = async(bot, msg, args, data) => {
     let embed = new Discord.MessageEmbed()
         .setColor(bot.config.color)
         .setTitle('Support server')
-        .setURL('https://discord.gg/jYsmps8Vp6')
-        .setDescription('Have suggestions or found bugs? Tell it on my support server:\n\nhttps://discord.gg/jYsmps8Vp6');
+        .setURL('')
+        .setDescription('Have suggestions or found bugs? Tell it on my support server:\n');
     return msg.channel.send(embed);
 }

@@ -1,9 +1,9 @@
 const Discord = require('discord.js-light');
 
 module.exports = {
-    name: 'reviewer',
+    name: 'setrole',
     description: 'Set a reviewer role.',
-    usage: 'reviewer <role>',
+    usage: 'setrole <role>',
     aliases: [],
     permissions: ['ADMINISTRATOR'],
     botPermissions: [],

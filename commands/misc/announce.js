@@ -23,7 +23,7 @@ module.exports.execute = async(bot, msg, args, data) => {
             if(channel) {
                 let embed = new Discord.MessageEmbed()
                     .setColor(bot.config.color)
-                    .setTitle('ApplyBot news')
+                    .setTitle('Bot News')
                     .setDescription(args.join(' '));
 
                 if(channel.send(embed)) success++;
@@ -33,7 +33,7 @@ module.exports.execute = async(bot, msg, args, data) => {
 
     let embed = new Discord.MessageEmbed()
         .setColor(bot.config.color)
-        .setTitle('ApplyBot news')
+        .setTitle('Bot news')
         .setDescription(args.join(' '))
         .setFooter('Sent to ' + success + ' guilds.');
 

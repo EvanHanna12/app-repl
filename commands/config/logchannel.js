@@ -1,9 +1,9 @@
 const Discord = require('discord.js-light');
 
 module.exports = {
-    name: 'logchannel',
+    name: 'setlogs',
     description: 'Set an log channel.',
-    usage: 'logchannel <channel>',
+    usage: 'setlog <channel>',
     aliases: [],
     permissions: ['ADMINISTRATOR'],
     botPermissions: [],

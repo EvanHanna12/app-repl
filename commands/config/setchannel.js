@@ -1,9 +1,9 @@
 const Discord = require('discord.js-light');
 
 module.exports = {
-    name: 'appchannel',
+    name: 'setchannel',
     description: 'Set an application channel.',
-    usage: 'appchannel <channel>',
+    usage: 'setchannel <channel>',
     aliases: [],
     permissions: ['ADMINISTRATOR'],
     botPermissions: [],
